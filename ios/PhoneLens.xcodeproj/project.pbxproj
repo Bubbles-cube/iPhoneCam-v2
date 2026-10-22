@@ -1,0 +1,34 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+		A10000000000000000000001 /* PhoneLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* PhoneLensApp.swift */; };
+		A10000000000000000000002 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* CameraController.swift */; };
+		A10000000000000000000003 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* CameraPreview.swift */; };
+		A10000000000000000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* ContentView.swift */; };
+		A10000000000000000000011 /* PhoneLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLensApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000016 /* PhoneLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000020 /* PhoneLens */ = {isa = PBXGroup; children = (A10000000000000000000011 /* PhoneLensApp.swift */, A10000000000000000000012 /* CameraController.swift */, A10000000000000000000013 /* CameraPreview.swift */, A10000000000000000000014 /* ContentView.swift */, A10000000000000000000015 /* Info.plist */); path = PhoneLens; sourceTree = "<group>"; };
+		A10000000000000000000021 = {isa = PBXGroup; children = (A10000000000000000000020 /* PhoneLens */, A10000000000000000000022 /* Products */); sourceTree = "<group>"; };
+		A10000000000000000000022 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000016 /* PhoneLens.app */); name = Products; sourceTree = "<group>"; };
+		A10000000000000000000030 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* PhoneLensApp.swift in Sources */, A10000000000000000000002 /* CameraController.swift in Sources */, A10000000000000000000003 /* CameraPreview.swift in Sources */, A10000000000000000000004 /* ContentView.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000031 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000032 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000040 /* PhoneLens */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000050 /* Build configuration list for PBXNativeTarget "PhoneLens" */; buildPhases = (A10000000000000000000030 /* Sources */, A10000000000000000000031 /* Frameworks */, A10000000000000000000032 /* Resources */); buildRules = (); dependencies = (); name = PhoneLens; productName = PhoneLens; productReference = A10000000000000000000016 /* PhoneLens.app */; productType = "com.apple.product-type.application"; };
+		A10000000000000000000041 /* Project object */ = {isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = { A10000000000000000000040 = { CreatedOnToolsVersion = 27.0; }; }; }; buildConfigurationList = A10000000000000000000051 /* Build configuration list for PBXProject "PhoneLens" */; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, "zh-Hant"); mainGroup = A10000000000000000000021; productRefGroup = A10000000000000000000022 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000040 /* PhoneLens */); };
+		A10000000000000000000060 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A10000000000000000000061 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; }; name = Release; };
+		A10000000000000000000062 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PhoneLens/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = tw.phonecamera.phonelens; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		A10000000000000000000063 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PhoneLens/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = tw.phonecamera.phonelens; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		A10000000000000000000050 /* Build configuration list for PBXNativeTarget "PhoneLens" */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000062 /* Debug */, A10000000000000000000063 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000051 /* Build configuration list for PBXProject "PhoneLens" */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000060 /* Debug */, A10000000000000000000061 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = A10000000000000000000041 /* Project object */;
+}
